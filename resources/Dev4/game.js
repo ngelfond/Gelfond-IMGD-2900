@@ -606,6 +606,7 @@ function checkIfGoal(){
 }
 
 function reset(){
+	PS.audioPlay("fx_blast3");
     switch (lvl){
         case 1:
             lvl1();
@@ -639,4 +640,5 @@ PS.borderMultiple = function (allCoordinates)
     {
         PS.borderAlpha ( allCoordinates[i][0], allCoordinates[i][1], 255);
     }
+
 };
