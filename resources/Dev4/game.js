@@ -59,10 +59,6 @@ PS.init = function( system, options ) {
 	// Uncomment the following code line
 	// to verify operation:
 
-    PS.debug( "Dev 4: Puzzle\n" );
-    PS.debug( "Made by Naomi Gelfond\n" );
-    PS.debug( "Arrow keys - move\n" );
-    PS.debug( "R - restart current level\n" );
 
 	// This function should normally begin
 	// with a call to PS.gridSize( x, y )
@@ -642,3 +638,4 @@ PS.borderMultiple = function (allCoordinates)
     }
 
 };
+
