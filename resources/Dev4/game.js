@@ -85,7 +85,7 @@ PS.init = function( system, options ) {
 	// Uncomment the following code line and
 	// change the string parameter as needed.
 
-    PS.statusText( "Escape!" );
+    PS.statusText( "R to Restart" );
 
 	// Add any other initialization code you need here.
 };
@@ -638,4 +638,5 @@ PS.borderMultiple = function (allCoordinates)
     }
 
 };
+
 
